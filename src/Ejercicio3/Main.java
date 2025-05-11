@@ -1,7 +1,7 @@
 package Ejercicio3;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Animal[] animals = new Animal[4];
 
         animals[0] = new Perro("Parchis");
@@ -10,11 +10,11 @@ public class Main {
         animals[3] = new Gato("Kira");
 
 
-        for (int i = 0; i < animals.length; i++) {
+        for(int i = 0; i<animals.length; i++){
             animals[i].myName();
             animals[i].hacerSonido();
-        }
 
+        }
 
     }
 
